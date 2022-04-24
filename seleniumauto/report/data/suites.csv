@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 23 18:56:25 CST 2022","Sat Apr 23 18:56:36 CST 2022","11383","testcase","test_product_add","TestProductAdd","","","test_product_add",""
+"passed","Sat Apr 23 18:56:10 CST 2022","Sat Apr 23 18:56:18 CST 2022","7523","testcase","test_login","TestLogin","","","test_login",""
+"passed","Sat Apr 23 18:56:20 CST 2022","Sat Apr 23 18:56:25 CST 2022","4910","testcase","test_product_search","TestProductSearch","","","test_product_search",""
+"passed","Sat Apr 23 18:56:18 CST 2022","Sat Apr 23 18:56:20 CST 2022","1850","testcase","test_product_info","TestProductInfo","","","test_add_product",""

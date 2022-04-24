@@ -1,0 +1,61 @@
+[ {
+  "uid" : "416b90fdd9d5ec48",
+  "name" : "test_login[密码错误登录失败1]",
+  "time" : {
+    "start" : 1650377301432,
+    "stop" : 1650377301557,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf0de5ab500cf4f",
+  "name" : "test_check_login[检测登录状态]",
+  "time" : {
+    "start" : 1650377301557,
+    "stop" : 1650377301682,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c27ebdbd5a24fa6d",
+  "name" : "test_login[密码错误登录失败0]",
+  "time" : {
+    "start" : 1650377301042,
+    "stop" : 1650377301307,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a270f7bb57ac9e63",
+  "name" : "test_login[登录成功]",
+  "time" : {
+    "start" : 1650377300637,
+    "stop" : 1650377300902,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3700ee5a694380f4",
+  "name" : "test_login[账号为空登录失败]",
+  "time" : {
+    "start" : 1650377301323,
+    "stop" : 1650377301432,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c0a3ba9865bbba7",
+  "name" : "test_login[账号不存在登录失败]",
+  "time" : {
+    "start" : 1650377300917,
+    "stop" : 1650377301027,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

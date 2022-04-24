@@ -1,0 +1,77 @@
+{
+  "uid" : "bf0de5ab500cf4f",
+  "name" : "test_check_login[检测登录状态]",
+  "fullName" : "testcase.test_check_login.TestCheckLogin#test_check_login",
+  "historyId" : "9cabc8ef0e71ffb69dcb5c50848c7692",
+  "time" : {
+    "start" : 1650377301557,
+    "stop" : 1650377301682,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clear",
+    "time" : {
+      "start" : 1650377300637,
+      "stop" : 1650377300637,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "checklogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheckLogin"
+  }, {
+    "name" : "host",
+    "value" : "danzhou"
+  }, {
+    "name" : "thread",
+    "value" : "7920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest.ini"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_check_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "checklogin",
+    "value" : "{'name': '登录状态检测', 'method': 'POST', 'header': {'content-type': 'application/x-www-form.urlencoded'}, 'url': 'http://hn216.api.yesapi.cn/api.yesapi.cn/api/App/User/Check', 'data': {'app_key': 'A2F7CC562D707583273CDA6DDE22B1CF', 'uuid': 'BDC96F4655937FD28CF3DBBFB9FCBEBA', 'token': '$token'}, 'Validata': {'err_code': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "checklogin" ]
+  },
+  "source" : "bf0de5ab500cf4f.json",
+  "parameterValues" : [ "{'name': '登录状态检测', 'method': 'POST', 'header': {'content-type': 'application/x-www-form.urlencoded'}, 'url': 'http://hn216.api.yesapi.cn/api.yesapi.cn/api/App/User/Check', 'data': {'app_key': 'A2F7CC562D707583273CDA6DDE22B1CF', 'uuid': 'BDC96F4655937FD28CF3DBBFB9FCBEBA', 'token': '$token'}, 'Validata': {'err_code': 0}}" ]
+}

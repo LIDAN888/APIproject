@@ -1,0 +1,83 @@
+{
+  "uid" : "416b90fdd9d5ec48",
+  "name" : "test_login[密码错误登录失败1]",
+  "fullName" : "testcase.test_login.Test_Member_Loin#test_login",
+  "historyId" : "da06d3136da650d993ba17e7dc776ec0",
+  "time" : {
+    "start" : 1650377301432,
+    "stop" : 1650377301557,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clear",
+    "time" : {
+      "start" : 1650377300637,
+      "stop" : 1650377300637,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录功能"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Member_Loin"
+  }, {
+    "name" : "host",
+    "value" : "danzhou"
+  }, {
+    "name" : "thread",
+    "value" : "7920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest.ini"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "loginfo",
+    "value" : "{'name': '密码为空，登录失败', 'method': 'POST', 'url': 'http://hn216.api.yesapi.cn/api/App/User/LoginExt', 'header': {'content-type': 'application/x-www-form.urlencoded'}, 'data': {'app_key': 'A2F7CC562D707583273CDA6DDE22B1CF', 'username': 'lee138', 'password': None}, 'Validata': {'msg': '缺少必要参数password'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "login" ]
+  },
+  "source" : "416b90fdd9d5ec48.json",
+  "parameterValues" : [ "{'name': '密码为空，登录失败', 'method': 'POST', 'url': 'http://hn216.api.yesapi.cn/api/App/User/LoginExt', 'header': {'content-type': 'application/x-www-form.urlencoded'}, 'data': {'app_key': 'A2F7CC562D707583273CDA6DDE22B1CF', 'username': 'lee138', 'password': None}, 'Validata': {'msg': '缺少必要参数password'}}" ]
+}

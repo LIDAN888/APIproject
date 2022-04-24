@@ -1,0 +1,12 @@
+-
+  name: 登录状态检测
+  method: POST
+  header:
+    content-type: application/x-www-form.urlencoded
+  url: http://hn216.api.yesapi.cn/api.yesapi.cn/api/App/User/Check
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    uuid: BDC96F4655937FD28CF3DBBFB9FCBEBA
+    token: $token
+  Validata:
+    err_code: 0

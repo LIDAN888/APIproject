@@ -1,0 +1,63 @@
+-
+  name: 登录成功
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/LoginExt
+  header:
+    content-type: application/x-www-form.urlencoded
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username: lee502
+    password: 123456
+  Validata:
+    err_code: 0
+-
+  name: 用户名错误，登录失败
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/LoginExt
+  header:
+    content-type: application/x-www-form.urlencoded
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username: lee01
+    password: 123456
+  Validata:
+    err_msg: 登录失败，账号不存在
+
+-
+  name: 密码错误，登录失败
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/LoginExt
+  header:
+    content-type: application/x-www-form.urlencoded
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username: lee138
+    password: 123455
+  Validata:
+    err_msg: 登录失败，密码错误
+
+-
+  name: 用户名为空，登录失败
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/LoginExt
+  header:
+    content-type: application/x-www-form.urlencoded
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username:
+    password: 123456
+  Validata:
+    msg: 缺少必要参数username
+
+-
+  name: 密码为空，登录失败
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/LoginExt
+  header:
+    content-type: application/x-www-form.urlencoded
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username: lee138
+    password:
+  Validata:
+    msg: 缺少必要参数password

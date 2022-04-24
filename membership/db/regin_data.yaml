@@ -1,0 +1,11 @@
+-
+  name: 会员注册
+  method: POST
+  header:
+    content-type: application/x-www-form.urlencoded
+  url: http://hn216.api.yesapi.cn/api/App/User/RegisterExt
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    username: lee502
+    password: 123456
+  Validata: None

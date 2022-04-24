@@ -1,0 +1,8 @@
+-
+  name: 账号注销
+  method: POST
+  url: http://hn216.api.yesapi.cn/api/App/User/RemoveUserBySelf
+  data:
+    app_key: A2F7CC562D707583273CDA6DDE22B1CF
+    uuid:
+    token:
