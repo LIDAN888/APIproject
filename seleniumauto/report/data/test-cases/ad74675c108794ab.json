@@ -1,0 +1,89 @@
+{
+  "uid" : "ad74675c108794ab",
+  "name" : "test_add_product",
+  "fullName" : "testcase.test_product_info.TestProductInfo#test_add_product",
+  "historyId" : "2c6d07e2bc7934900f62c20e994a74b8",
+  "time" : {
+    "start" : 1650819412367,
+    "stop" : 1650819414478,
+    "duration" : 2111
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_chrome",
+    "time" : {
+      "start" : 1650819412366,
+      "stop" : 1650819412366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "open_chrome::0",
+    "time" : {
+      "start" : 1650819432534,
+      "stop" : 1650819432535,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductInfo"
+  }, {
+    "name" : "host",
+    "value" : "danzhou"
+  }, {
+    "name" : "thread",
+    "value" : "6176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest.ini"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_product_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "ad74675c108794ab.json",
+  "parameterValues" : [ ]
+}
