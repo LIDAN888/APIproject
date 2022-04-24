@@ -1,3 +1,5 @@
+import os
+
 from seleniumauto.common.read_yaml import ReadElement
 from seleniumauto.page.base_object import BaseObject
 class LoginPage(BaseObject):
@@ -13,3 +15,4 @@ class LoginPage(BaseObject):
         key,value=self.find_key(element,"断言")
         validate=self.elements_locator(key,value).text
         return validate
+print(os.getcwd())

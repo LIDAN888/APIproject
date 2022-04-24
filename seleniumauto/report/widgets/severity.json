@@ -1,40 +1,40 @@
 [ {
-  "uid" : "bc26e1ab731b3576",
+  "uid" : "8790b1d3b8c96865",
   "name" : "test_product_search",
   "time" : {
-    "start" : 1650711380210,
-    "stop" : 1650711385120,
-    "duration" : 4910
+    "start" : 1650819414483,
+    "stop" : 1650819420886,
+    "duration" : 6403
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3acc58502034c136",
+  "uid" : "ad74675c108794ab",
   "name" : "test_add_product",
   "time" : {
-    "start" : 1650711378356,
-    "stop" : 1650711380206,
-    "duration" : 1850
+    "start" : 1650819412367,
+    "stop" : 1650819414478,
+    "duration" : 2111
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dbdda0a460c2d683",
+  "uid" : "fc25d7615a606683",
   "name" : "test_login",
   "time" : {
-    "start" : 1650711370828,
-    "stop" : 1650711378351,
-    "duration" : 7523
+    "start" : 1650819403759,
+    "stop" : 1650819412360,
+    "duration" : 8601
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c1adf657cffdafea",
+  "uid" : "e1c13e8634abfce0",
   "name" : "test_product_add",
   "time" : {
-    "start" : 1650711385129,
-    "stop" : 1650711396512,
-    "duration" : 11383
+    "start" : 1650819420893,
+    "stop" : 1650819432534,
+    "duration" : 11641
   },
   "status" : "passed",
   "severity" : "normal"
