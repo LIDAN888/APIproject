@@ -1,0 +1,6 @@
+库存状态: 'XPATH==//a[@name="is_in_stock"]'
+库存状态下拉框: 'XPATH==//select[@name="is_in_stock"]'
+产品名称: 'XPATH==//*[@placeholder="产品名字"]'
+更新时间开始: 'XPATH==//*[@placeholder="更新时间开始"]'
+更新时间结束: 'XPATH==//*[@placeholder="更新时间结束"]'
+查询: 'XPATH==//*[@class="buttonActive"]'
