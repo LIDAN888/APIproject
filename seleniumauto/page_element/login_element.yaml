@@ -1,4 +1,0 @@
-用户名: CSS_SELECTOR==[name="login[username]"]
-密码: CSS_SELECTOR==[name="login[password]"]
-登录按钮: CSS_SELECTOR==.el-button
-断言: 'XPATH==//span[contains(text(),"您好: test")]'

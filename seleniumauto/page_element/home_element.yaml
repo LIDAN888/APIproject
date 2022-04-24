@@ -1,5 +1,0 @@
-产品分类: 'XPATH==//*[text()="产品分类"]'
-商场管理: 'XPATH==//*[text()="商城管理"]'
-产品管理: 'XPATH==//*[contains(text(),"产品管理")]'
-分类管理: 'XPATH==//*[contains(text(),"分类管理")]'
-产品信息管理: 'XPATH==//*[text()="产品信息管理"]'
